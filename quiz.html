@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./files/favicon.ico" type="image/x-icon">
+    <title>Quiz | Schevron</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="./files/logo.jpg" alt="logo">
+        <nav class="cabecalho-menu">
+            <ul>
+            <li><a class="cabecalho-menu-item" href="index.php">Início</a></li>
+            <li><a class="cabecalho-menu-item" href="cursos.html">Cursos</a></li>
+            <li><a class="cabecalho-menu-item" href="#">Carreiras</a>
+                <ul class="sub-menu-nav"><br>
+                    <li><a class="sub-menu" href="front.html">Front-End</a></li>
+                    <li><a class="sub-menu" href="backend.html">Back-End</a></li>
+                    <li><a class="sub-menu" href="mobile.html">Mobile</a></li>
+                    <li><a class="sub-menu" href="fullstack.html">Full-Stack</a></li>
+                    <li><a class="sub-menu" href="qa.html">QA</a></li>
+                    <li><a class="sub-menu" href="bd">Banco de Dados</a></li>
+                </ul>
+            </li>
+            <li><a class="cabecalho-menu-item" href="quiz.html">Quiz</a></li>
+            <li><a class="cabecalho-menu-item" href="sair.php">Sair</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <div class="quiz-container">
+        <h1>Quiz Front End e Back End</h1>
+        <p>Responda às seguintes perguntas de múltipla escolha para descobrir se você se dá melhor com Front End ou Back End:</p><br>
+
+        <form id="quiz-form">
+          <fieldset>
+            <legend>Pergunta 1: Qual das seguintes linguagens de programação é mais relacionada com o Front End?</legend>
+            <label for="q1a"><input type="radio" name="q1" id="q1a" value="a">Java</label>
+            <label for="q1b"><input type="radio" name="q1" id="q1b" value="b">Python</label>
+            <label for="q1c"><input type="radio" name="q1" id="q1c" value="c">JavaScript</label>
+            <label for="q1d"><input type="radio" name="q1" id="q1d" value="d">PHP</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 2: Qual das seguintes opções é mais relacionada com a estruturação de conteúdo e apresentação visual de um site?</legend>
+            <label for="q2a"><input type="radio" name="q2" id="q2a" value="a">HTML</label>
+            <label for="q2b"><input type="radio" name="q2" id="q2b" value="b">CSS</label>
+            <label for="q2c"><input type="radio" name="q2" id="q2c" value="c">JavaScript</label>
+            <label for="q2d"><input type="radio" name="q2" id="q2d" value="d">Ruby</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 3: Qual das seguintes ferramentas é mais comumente usada para desenvolvimento de Front End?</legend>
+            <label for="q3a"><input type="radio" name="q3" id="q3a" value="a">Visual Studio Code</label>
+            <label for="q3b"><input type="radio" name="q3" id="q3b" value="b">IntelliJ IDEA</label>
+            <label for="q3c"><input type="radio" name="q3" id="q3c" value="c">PyCharm</label>
+            <label for="q3d"><input type="radio" name="q3" id="q3d" value="d">Eclipse</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 4: Qual das seguintes tecnologias é mais usada para criar interfaces de usuário responsivas?</legend>
+            <label for="q4a"><input type="radio" name="q4" id="q4a" value="a">Angular</label>
+            <label for="q4b"><input type="radio" name="q4" id="q4b" value="b">React</label>
+            <label for="q4c"><input type="radio" name="q4" id="q4c" value="c">Vue</label>
+            <label for="q4d"><input type="radio" name="q4" id="q4d" value="d">Bootstrap</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 5: Qual das seguintes linguagens de programação é mais relacionada com o Back End?</legend>
+            <label for="q5a"><input type="radio" name="q5" id="q5a" value="a">Ruby</label>
+            <label for="q5b"><input type="radio" name="q5" id="q5b" value="b">PHP</label>
+            <label for="q5c"><input type="radio" name="q5" id="q5c" value="c">C++</label>
+            <label for="q5d"><input type="radio" name="q5" id="q5d" value="d">Swift</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 6: Qual das seguintes tecnologias é mais usada para armazenar e gerenciar dados em um site ou aplicativo?</legend>
+            <label for="q6a"><input type="radio" name="q6" id="q6a" value="a">MongoDB</label>
+            <label for="q6b"><input type="radio" name="q6" id="q6b" value="b">React</label>
+            <label for="q6c"><input type="radio" name="q6" id="q6c" value="c">Angular</label>
+            <label for="q6d"><input type="radio" name="q6" id="q6d" value="d">Vue</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 7: Qual das seguintes opções é mais comumente usada para gerenciar pacotes de bibliotecas em um projeto de desenvolvimento?</legend>
+            <label for="q7a"><input type="radio" name="q7" id="q7a" value="a">Yarn</label>
+            <label for="q7b"><input type="radio" name="q7" id="q7b" value="b">NPM</label>
+            <label for="q7c"><input type="radio" name="q7" id="q7c" value="c">Git</label>
+            <label for="q7d"><input type="radio" name="q7" id="q7d" value="d">Mercurial</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 8: Qual das seguintes ferramentas é mais comumente usada para desenvolvimento de Back End?</legend>
+            <label for="q8a"><input type="radio" name="q8" id="q8a" value="a">Visual Studio Code</label>
+            <label for="q8b"><input type="radio" name="q8" id="q8b" value="b">IntelliJ IDEA</label>
+            <label for="q8c"><input type="radio" name="q8" id="q8c" value="c">PyCharm</label>
+            <label for="q8d"><input type="radio" name="q8" id="q8d" value="d">Eclipse</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 9: Qual das seguintes tecnologias é mais usada para criar APIs RESTful?</legend>
+            <label for="q9a"><input type="radio" name="q9" id="q9a" value="a">Node.js</label>
+            <label for="q9b"><input type="radio" name="q9" id="q9b" value="b">Ruby on Rails</label>
+            <label for="q9c"><input type="radio" name="q9" id="q9c" value="c">Django</label>
+            <label for="q9d"><input type="radio" name="q9" id="q9d" value="d">Flask</label>
+          </fieldset><br><br>
+
+          <fieldset>
+            <legend>Pergunta 10: Qual das seguintes linguagens de programação é mais relacionada com o Back End em servidores web?</legend>
+            <label for="q10a"><input type="radio" name="q10" id="q10a" value="a">Java</label>
+            <label for="q10b"><input type="radio" name="q10" id="q10b" value="b">Python</label>
+            <label for="q10c"><input type="radio" name="q10" id="q10c" value="c">JavaScript</label>
+            <label for="q10d"><input type="radio" name="q10" id="q10d" value="d">PHP</label>
+          </fieldset><br>
+
+          <button class="botao-quiz" type="submit">Enviar</button>
+        </form>
+
+        <div id="result"></div>
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>
